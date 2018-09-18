@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { Pet } from "./components/Pet";
 
 // import SCSS
-import Styling from "./../scss/main.scss";
+import Styling from "./scss/main.scss";
 
 class App extends React.Component {
   render() {
