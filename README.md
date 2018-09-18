@@ -7,6 +7,9 @@
 - The repo from the Front-End Masters Course - https://github.com/btholt/complete-intro-to-react-v4
 - Lecture Notes - https://btholt.github.io/complete-intro-to-react-v4/
 
+[v4]: https://bit.ly/react-v4
+[fem]: https://frontendmasters.com/courses/react/
+
 ### Install
 
 ```bash
@@ -38,6 +41,10 @@ Parcel is an ever evolving project that's just getting better. If you run into p
 
 - SCSS architeture - 
 https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-organization
+
+### Troubleshoot
+
+- Git Detached HEAD issue _[Solved]_ - https://stackoverflow.com/questions/5772192/how-can-i-reconcile-detached-head-with-master-origin
 
 
 
