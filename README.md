@@ -1,4 +1,5 @@
-#  React/Parcel/SCSS boilerplate
+# React/Parcel/SCSS boilerplate
+
 ## Date created: (Sep 2018) by Christiaan Quyn
 
 > This repo contains my default parcel boilerplate of getting started with React.
@@ -25,7 +26,9 @@ npm run build
 
 ## Set-up configuration
 
-- This project by default has ESLint and Prettier set up. 
+- This project by default has ESLint and Prettier set up.
+
+- Routing via https://github.com/reach/router
 
 ## Debugging
 
@@ -39,13 +42,9 @@ Parcel is an ever evolving project that's just getting better. If you run into p
 
 - Directory structure example - https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1
 
-- SCSS architeture - 
-https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-organization
+- SCSS architeture -
+  https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-organization
 
 ### Troubleshoot
 
 - Git Detached HEAD issue _[Solved]_ - https://stackoverflow.com/questions/5772192/how-can-i-reconcile-detached-head-with-master-origin
-
-
-
-
