@@ -28,7 +28,7 @@ npm run build
 
 - This project by default has ESLint and Prettier set up.
 
-- Routing via https://github.com/reach/router
+- Routing via https://github.com/reach/router (https://btholt.github.io/complete-intro-to-react-v4/reach-router)
 
 ## Debugging
 
