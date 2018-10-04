@@ -30,7 +30,7 @@ npm run build
 
 - Routing via https://github.com/reach/router (https://btholt.github.io/complete-intro-to-react-v4/reach-router)
 
-- `.babelrc` configured for custom babel setting
+- `.babelrc` configured for custom babel setting.
 
 ## Debugging
 
