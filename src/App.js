@@ -7,6 +7,9 @@ import { Pet } from "./components/Pet";
 import Styling from "./scss/main.scss";
 
 class App extends React.Component {
+  state = {
+    random: true
+  };
   render() {
     return (
       <div>
