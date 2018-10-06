@@ -50,3 +50,5 @@ Parcel is an ever evolving project that's just getting better. If you run into p
 ### Troubleshoot
 
 - Git Detached HEAD issue _[Solved]_ - https://stackoverflow.com/questions/5772192/how-can-i-reconcile-detached-head-with-master-origin
+
+- babel config issue _[Solved]_ - https://github.com/babel/babel/issues/5006
