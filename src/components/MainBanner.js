@@ -1,32 +1,34 @@
 import React from "react";
-
 import styled from "styled-components";
 
-const NavbarDiv = styled.div`
+import Search from "./Search";
+
+const MainBannerDiv = styled.div`
   /* Smartphones (portrait and landscape) ----------- */
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    grid-row: 1 / 2;
+    grid-row: 2 / 3;
     grid-column: 1 / -1;
     height: auto;
-    background-color: black;
+    background-color: #6578;
   }
   /* Desktops and laptops ----------- */
   @media only screen and (min-width: 1224px) {
-    grid-row: 1 / 2;
+    grid-row: 2 / 3;
     grid-column: 1 / -1;
     height: auto;
-    background-color: black;
+    background-color: #6578;
   }
 `;
 
-class Navbar extends React.Component {
+class MainBanner extends React.Component {
   render() {
     return (
-      <NavbarDiv>
-        <span style={{ color: "white" }}>Logo</span>
-      </NavbarDiv>
+      <MainBannerDiv>
+        <span style={{ color: "black" }}>Main Banner</span>
+        <Search />
+      </MainBannerDiv>
     );
   }
 }
 
-export default Navbar;
+export default MainBanner;
