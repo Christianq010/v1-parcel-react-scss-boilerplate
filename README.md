@@ -1,15 +1,10 @@
-# React/Parcel/SCSS boilerplate
+# GovJobs.lk front-end app
 
-## Date created: (Sep 2018) by Christiaan Quyn
+## Parcel React boilerplate
 
-> This repo contains my default parcel boilerplate of getting started with React.
+> This repo was originally cloned from the following parcel React boilerplate [here](https://github.com/Christianq010/v1-parcel-react-scss-boilerplate).
 
-- Inspired by the [Frontend Masters][fem] course here - [See the course website here][v4].
 - The repo from the Front-End Masters Course - https://github.com/btholt/complete-intro-to-react-v4
-- Lecture Notes - https://btholt.github.io/complete-intro-to-react-v4/
-
-[v4]: https://bit.ly/react-v4
-[fem]: https://frontendmasters.com/courses/react/
 
 ### Install
 
@@ -31,6 +26,8 @@ npm run build
 - Routing via https://github.com/reach/router (https://btholt.github.io/complete-intro-to-react-v4/reach-router)
 
 - `.babelrc` configured for custom babel setting.
+
+- Styled components used for styling.
 
 ## Debugging
 
