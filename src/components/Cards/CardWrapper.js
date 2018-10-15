@@ -20,13 +20,29 @@ const CardWrapperDiv = styled.div`
   }
 `;
 
+const Cards = styled.div`
+    /* Smartphones (portrait and landscape) ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Desktops and laptops ----------- */
+  @media only screen and (min-width: 1224px) {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+`;
+
 class CardWrapper extends React.Component {
   render() {
     return (
       <CardWrapperDiv>
-        {/* <span style={{ color: "white" }}>Card Wrapper</span> */}
-        Hello world
-        {/* <Card /> */}
+        <Cards>
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </Cards>
       </CardWrapperDiv>
     );
   }
