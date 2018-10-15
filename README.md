@@ -4,7 +4,7 @@
 
 > This repo was originally cloned from the following parcel React boilerplate [here](https://github.com/Christianq010/v1-parcel-react-scss-boilerplate).
 
-- The repo from the Front-End Masters Course - https://github.com/btholt/complete-intro-to-react-v4
+- Content from the repo from the Front-End Masters react Course - https://btholt.github.io/complete-intro-to-react-v4/
 
 ### Install
 
