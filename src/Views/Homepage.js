@@ -6,6 +6,7 @@ import MainBanner from "../components/MainBanner";
 import CardWrapper from "../components/Cards/CardWrapper";
 import SecondaryBanner from "../components/SecondaryBanner";
 import BlogWrapper from "../components/Blogs/BlogWrapper";
+import Footer from "../components/Footer";
 
 const HomepageDiv = styled.div`
   /* Smartphones (portrait and landscape) ----------- */
@@ -34,6 +35,7 @@ class Homepage extends React.Component {
         <CardWrapper />
         <SecondaryBanner />
         <BlogWrapper />
+        <Footer />
       </HomepageDiv>
     );
   }
