@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import { Router, Link } from "@reach/router";
 
 // import SCSS
-import Styling from "./scss/main.scss";
+// import Styling from "./scss/main.scss";
 
 import Homepage from "./Views/Homepage";
 import Search from "./Views/Search";
