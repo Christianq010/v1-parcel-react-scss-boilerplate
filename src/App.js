@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-// import { Router } from "@reach/router";
-import { Pet } from "./components/Pet";
+import { Router, Link } from "@reach/router";
 
 // import SCSS
-import Styling from "./scss/main.scss";
+// import Styling from "./scss/main.scss";
+
+import Homepage from "./Views/Homepage";
+import Search from "./Views/Search";
 
 class App extends React.Component {
   state = {
@@ -13,10 +15,13 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Adopt Me</h1>
-        <Pet name="Luna" animal="Dog" breed="Havanese" />
-        <Pet name="Pepper" animal="Bird" breed="Cockatiel" />
-        <Pet name="Doink" animal="Cat" breed="Mix" />
+        <header>
+          <Link to="/">link to home</Link>
+        </header>
+        <Router>
+          <Homepage path="/" />
+          <Search path="/search" />
+        </Router>
       </div>
     );
   }

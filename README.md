@@ -8,9 +8,6 @@
 - The repo from the Front-End Masters Course - https://github.com/btholt/complete-intro-to-react-v4
 - Lecture Notes - https://btholt.github.io/complete-intro-to-react-v4/
 
-[v4]: https://bit.ly/react-v4
-[fem]: https://frontendmasters.com/courses/react/
-
 ### Install
 
 ```bash
@@ -28,10 +25,6 @@ npm run build
 
 - This project by default has ESLint and Prettier set up.
 
-- Routing via https://github.com/reach/router (https://btholt.github.io/complete-intro-to-react-v4/reach-router)
-
-- `.babelrc` configured for custom babel setting.
-
 ## Debugging
 
 Parcel is an ever evolving project that's just getting better. If you run into problems with it not respecting changes (particularly to your `.babelrc` or `.env` files) then delete the `dist/` and the `.cache/` directories. You can do this in bash by running from the root directoy of your project `rm -rf dist/ .cache/` or just by deleting those directories in your editor. This will force Parcel to start over and not cache anything.
@@ -46,9 +39,3 @@ Parcel is an ever evolving project that's just getting better. If you run into p
 
 - SCSS architeture -
   https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-organization
-
-### Troubleshoot
-
-- Git Detached HEAD issue _[Solved]_ - https://stackoverflow.com/questions/5772192/how-can-i-reconcile-detached-head-with-master-origin
-
-- babel config issue _[Solved]_ - https://github.com/babel/babel/issues/5006
